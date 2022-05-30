@@ -1,0 +1,11 @@
+<smil xmlns="http://www.w3.org/ns/SMIL"
+      version="3.0">
+    <body>
+        <seq epub:textref="p001.xhtml">
+        <par id="par1">
+            <text src="p001.xhtml#sec1"/>
+            <audio src="audio/Aldo_in_Arcadia__Part_2_.mp3" clipBegin="0" clipEnd="36.561962"/>
+        </par>
+       </seq>
+    </body>
+</smil>

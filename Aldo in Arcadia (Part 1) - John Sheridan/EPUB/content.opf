@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title id="id">Aldo in Arcadia (Part 1)</dc:title>
+    <dc:creator id="creator-ill">Malcolm Livingstone</dc:creator>
+    <dc:creator id="id-1">John Sheridan</dc:creator>
+    <dc:identifier>calibre:268</dc:identifier>
+    <dc:identifier>uuid:dd82665e-1540-4752-93bc-18d3df918da1</dc:identifier>
+    <dc:identifier id="uuid_id">urn:uuid:dd82665e-1540-4752-93bc-18d3df918da1</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:date>1982-01-12T00:00:00+00:00</dc:date>
+    <dc:publisher>Marshall Cavendish</dc:publisher>
+    <meta refines="#id" property="title-type">main</meta>
+    <meta refines="#id" property="file-as">Aldo in Arcadia (Part 1)</meta>
+    <meta refines="#uuid_id" property="identifier-type" scheme="xsd:string">uuid</meta>
+    <meta refines="#creator-ill" property="role" scheme="marc:relators">ill</meta>
+    <meta refines="#creator-ill" property="file-as">Livingstone, Malcolm</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2022-05-30T11:40:43Z</meta>
+    <meta name="cover" content="cover.jpg"/>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">portrait</meta>
+    <meta property="rendition:spread">none</meta>
+    <meta property="media:duration" refines="#s001">56.539930</meta>
+    <meta property="media:duration" refines="#s002">60.978771</meta>
+    <meta property="media:duration" refines="#s003">68.876811</meta>
+    <meta property="media:duration">186.395512</meta>
+    <meta property="media:narrator">Nigel Lambert</meta>
+    <meta property="media:narrator">John Brewer</meta>
+    <meta property="media:active-class">-epub-media-overlay-active</meta>
+    <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+    <meta refines="#id-1" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-1" property="file-as">Sheridan, John</meta>
+    <meta property="belongs-to-collection" id="id-2">Story Teller</meta>
+    <meta refines="#id-2" property="collection-type">series</meta>
+    <meta refines="#id-2" property="group-position">3</meta>
+    <meta property="calibre:author_link_map">{"John Sheridan": ""}</meta>
+  </metadata>
+  <manifest>
+    <item id="pcover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p001" href="p001.xhtml" media-type="application/xhtml+xml" media-overlay="s001"/>
+    <item id="p002" href="p002.xhtml" media-type="application/xhtml+xml" media-overlay="s002"/>
+    <item id="p003" href="p003.xhtml" media-type="application/xhtml+xml" media-overlay="s003"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+    <item id="cover.jpg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="i001" href="images/i001.jpg" media-type="image/jpeg"/>
+    <item id="i002" href="images/i002.jpg" media-type="image/jpeg"/>
+    <item id="i003" href="images/i003.jpg" media-type="image/jpeg"/>
+    <item id="a001" href="audio/Aldo_in_Arcadia__Part_1_.mp3" media-type="audio/mpeg"/>
+    <item id="s001" href="s001.smil" media-type="application/smil+xml"/>
+    <item id="s002" href="s002.smil" media-type="application/smil+xml"/>
+    <item id="s003" href="s003.smil" media-type="application/smil+xml"/>
+    <item id="id1" href="Aldo%20in%20Arcadia%20%28Part%201%29.dat" media-type="chemical/x-mopac-input"/>
+  </manifest>
+  <spine page-progression-direction="ltr" toc="toc">
+    <itemref idref="pcover" linear="yes"/>
+    <itemref idref="p001" linear="yes"/>
+    <itemref idref="p002" linear="yes"/>
+    <itemref idref="p003" linear="yes"/>
+  </spine>
+</package>
