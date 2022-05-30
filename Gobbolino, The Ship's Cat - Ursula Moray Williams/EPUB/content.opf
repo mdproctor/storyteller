@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title id="id">Gobbolino, The Ship's Cat</dc:title>
+    <dc:creator id="creator-ill">Francis Phillipps</dc:creator>
+    <dc:creator id="id-1">Ursula Moray Williams</dc:creator>
+    <dc:identifier>calibre:270</dc:identifier>
+    <dc:identifier>uuid:d60d0094-7d5a-490f-b5f8-cce5f5f84615</dc:identifier>
+    <dc:identifier id="uuid_id">urn:uuid:d60d0094-7d5a-490f-b5f8-cce5f5f84615</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:date>1982-01-01T00:00:00+00:00</dc:date>
+    <dc:publisher>Marshall Cavendish</dc:publisher>
+    <meta refines="#id" property="title-type">main</meta>
+    <meta refines="#id" property="file-as">Gobbolino, The Ship's Cat</meta>
+    <meta refines="#uuid_id" property="identifier-type" scheme="xsd:string">uuid</meta>
+    <meta refines="#creator-ill" property="role" scheme="marc:relators">ill</meta>
+    <meta refines="#creator-ill" property="file-as">Phillipps, Francis Moray</meta>
+    <meta property="media:narrator">Sheila Hancock</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2022-05-30T11:34:46Z</meta>
+    <meta name="cover" content="cover.jpg"/>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">portrait</meta>
+    <meta property="rendition:spread">none</meta>
+    <meta property="media:duration" refines="#s001">90.169381</meta>
+    <meta property="media:duration" refines="#s002">171.619524</meta>
+    <meta property="media:duration" refines="#s003">76.135376</meta>
+    <meta property="media:duration" refines="#s004">63.238543</meta>
+    <meta property="media:duration" refines="#s005">90.526616</meta>
+    <meta property="media:duration" refines="#s006">127.431464</meta>
+    <meta property="media:duration">127.431464</meta>
+    <meta property="media:active-class">-epub-media-overlay-active</meta>
+    <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+    <meta refines="#id-1" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-1" property="file-as">Williams, Ursula Moray</meta>
+    <meta property="belongs-to-collection" id="id-2">Story Teller</meta>
+    <meta refines="#id-2" property="collection-type">series</meta>
+    <meta refines="#id-2" property="group-position">2</meta>
+    <meta property="calibre:author_link_map">{"Ursula Moray Williams": ""}</meta>
+  </metadata>
+  <manifest>
+    <item id="pcover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p001" href="p001.xhtml" media-type="application/xhtml+xml" media-overlay="s001"/>
+    <item id="p002" href="p002.xhtml" media-type="application/xhtml+xml" media-overlay="s002"/>
+    <item id="p003" href="p003.xhtml" media-type="application/xhtml+xml" media-overlay="s003"/>
+    <item id="p004" href="p004.xhtml" media-type="application/xhtml+xml" media-overlay="s004"/>
+    <item id="p005" href="p005.xhtml" media-type="application/xhtml+xml" media-overlay="s005"/>
+    <item id="p006" href="p006.xhtml" media-type="application/xhtml+xml" media-overlay="s006"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+    <item id="cover.jpg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="i001" href="images/i001.jpg" media-type="image/jpeg"/>
+    <item id="i002" href="images/i002.jpg" media-type="image/jpeg"/>
+    <item id="i003" href="images/i003.jpg" media-type="image/jpeg"/>
+    <item id="i004" href="images/i004.jpg" media-type="image/jpeg"/>
+    <item id="i005" href="images/i005.jpg" media-type="image/jpeg"/>
+    <item id="i006" href="images/i006.jpg" media-type="image/jpeg"/>
+    <item id="a001" href="audio/Gobbolino__the_Ship_s_Cat.mp3" media-type="audio/mpeg"/>
+    <item id="s001" href="s001.smil" media-type="application/smil+xml"/>
+    <item id="s002" href="s002.smil" media-type="application/smil+xml"/>
+    <item id="s003" href="s003.smil" media-type="application/smil+xml"/>
+    <item id="s004" href="s004.smil" media-type="application/smil+xml"/>
+    <item id="s005" href="s005.smil" media-type="application/smil+xml"/>
+    <item id="s006" href="s006.smil" media-type="application/smil+xml"/>
+    <item id="id1" href="Gobbolino%2c%20The%20Ship%27s%20Cat.dat" media-type="chemical/x-mopac-input"/>
+  </manifest>
+  <spine page-progression-direction="ltr" toc="toc">
+    <itemref idref="pcover" linear="yes"/>
+    <itemref idref="p001" linear="yes"/>
+    <itemref idref="p002" linear="yes"/>
+    <itemref idref="p003" linear="yes"/>
+    <itemref idref="p004" linear="yes"/>
+    <itemref idref="p005" linear="yes"/>
+    <itemref idref="p006" linear="yes"/>
+  </spine>
+</package>

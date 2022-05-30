@@ -1,0 +1,11 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" 
+      version="3.0">
+    <body>
+        <seq epub:textref="p001.xhtml">
+        <par id="par1">
+            <text src="p001.xhtml#sec1"/>
+            <audio src="audio/Gobbolino__the_Witch_s_Cat.mp3" clipBegin="33" clipEnd="175.663288"/>
+        </par>                                          
+       </seq>
+    </body>
+</smil>
