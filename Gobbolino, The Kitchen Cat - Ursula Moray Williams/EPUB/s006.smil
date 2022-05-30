@@ -1,0 +1,11 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" 
+      version="3.0">
+    <body>
+        <seq epub:textref="p006.xhtml">
+        <par id="par1">
+            <text src="p006.xhtml#sec1"/>
+            <audio src="audio/Gobbolino__the_Kitchen_Cat.mp3" clipBegin="468.607609" clipEnd="567.024065"/>
+        </par>                                 
+       </seq>
+    </body>
+</smil>
