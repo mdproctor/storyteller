@@ -1,0 +1,54 @@
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/ calibre: https://calibre-ebook.com">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title id="id">The Hare and the Tortoise</dc:title>
+    <dc:creator id="creator-ill">Malcolm Livingston</dc:creator>
+    <dc:creator id="id-1">Aesop</dc:creator>
+    <dc:identifier>calibre:267</dc:identifier>
+    <dc:identifier>uuid:39f6d4bc-e14f-49ca-a48b-4a9644c5fdaa</dc:identifier>
+    <dc:identifier id="uuid_id">urn:uuid:39f6d4bc-e14f-49ca-a48b-4a9644c5fdaa</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:date>1982-01-12T00:00:00+00:00</dc:date>
+    <dc:publisher>Marshall Cavendish</dc:publisher>
+    <opf:meta refines="#id" property="title-type">main</opf:meta>
+    <opf:meta refines="#id" property="file-as">Hare and the Tortoise, The</opf:meta>
+    <meta refines="#uuid_id" property="identifier-type" scheme="xsd:string">uuid</meta>
+    <meta refines="#creator-ill" property="role" scheme="marc:relators">ill</meta>
+    <meta refines="#creator-ill" property="file-as">Livingston, Malcolm</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2022-05-30T01:06:01Z</meta>
+    <meta name="cover" content="cover.jpg"/>
+    <meta property="rendition:layout">pre-paginated</meta>
+    <meta property="rendition:orientation">portrait</meta>
+    <meta property="rendition:spread">none</meta>
+    <meta property="media:duration" refines="#s001">98.037628</meta>
+    <meta property="media:duration" refines="#s002">98.841381</meta>
+    <meta property="media:duration">196.879009</meta>
+    <meta property="media:narrator">Bernard Cribbins</meta>
+    <meta property="media:active-class">-epub-media-overlay-active</meta>
+    <meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+    <opf:meta refines="#id-1" property="role" scheme="marc:relators">aut</opf:meta>
+    <opf:meta refines="#id-1" property="file-as">Aesop</opf:meta>
+    <opf:meta property="belongs-to-collection" id="id-2">Story Teller</opf:meta>
+    <opf:meta refines="#id-2" property="collection-type">series</opf:meta>
+    <opf:meta refines="#id-2" property="group-position">1</opf:meta>
+    <opf:meta property="calibre:author_link_map">{"Aesop": ""}</opf:meta>
+  </metadata>
+  <manifest>
+    <item id="pcover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p001" href="p001.xhtml" media-type="application/xhtml+xml" media-overlay="s001"/>
+    <item id="p002" href="p002.xhtml" media-type="application/xhtml+xml" media-overlay="s002"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="styles/stylesheet.css" media-type="text/css"/>
+    <item id="cover.jpg" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="i001" href="images/i001.jpg" media-type="image/jpeg"/>
+    <item id="i002" href="images/i002.jpg" media-type="image/jpeg"/>
+    <item id="a001" href="audio/The_Hare_and_the_Tortoise.mp3" media-type="audio/mpeg"/>
+    <item id="s001" href="s001.smil" media-type="application/smil+xml"/>
+    <item id="s002" href="s002.smil" media-type="application/smil+xml"/>
+  </manifest>
+  <spine page-progression-direction="ltr" toc="toc">
+    <itemref idref="pcover" linear="yes"/>
+    <itemref idref="p001" linear="yes"/>
+    <itemref idref="p002" linear="yes"/>
+  </spine>
+</package>

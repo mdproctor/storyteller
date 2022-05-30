@@ -1,0 +1,11 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" 
+      version="3.0">
+    <body>
+        <seq epub:textref="p002.xhtml">
+        <par id="par1">
+            <text src="p002.xhtml#sec1"/>
+            <audio src="Audio/The_Hare_and_the_Tortoise.mp3" clipBegin="98.037628" clipEnd="196.879009"/>
+        </par>                                 
+       </seq>
+    </body>
+</smil>
