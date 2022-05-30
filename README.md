@@ -1,6 +1,10 @@
 # Overview
 Each folder is a single story from the Story Teller series, using a Read Aloud EPUB format. It contains SMIL meta data to synchronise the audio with each each page of the book. I have only tested this with Apple Books.
 
+Right now it just has a few books, I will keep adding more - there are soooooooo many wonderful stories. The complete list can be seen here:
+https://storytellerwebsite.wordpress.com/the-collection/story-teller-1/
+https://storytellerwebsite.wordpress.com/the-collection/story-teller-2/
+
 # Instructions
 Use ecancrusher, https://www.docdataflow.com/ecancrusher/, to create the compressed epub files that you can drop into Apple Books. Just drag the EPUB folder and drop on the ecancrusher app icon.
 
@@ -40,4 +44,5 @@ https://creativecommons.org/share-your-work/public-domain/cc0/
 https://storytellerwebsite.wordpress.com
 https://storytellerme.bandcamp.com/releases
 https://www.facebook.com/groups/storytellerpartwork/
+
 
