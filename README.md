@@ -12,7 +12,7 @@ https://www.albertopettarin.it/blog/2014/08/02/how-to-create-epub-3-read-aloud-e
 
 I used Calibre, https://calibre-ebook.com, to author the books and Audacity to export the audio labels to create the SMIL data, https://www.audacityteam.org. I added the Audacity exported labels to each EPUB folder.
 
-For practicality, I've chosen to split the audio per page. A later effort could look to provide finer granuality, for a better experience, to allow selection of columns or sections as the resume point.
+For practicality, I've chosen to split the audio per page. A later effort could look to provide finer granuality, for a better experience, to allow selection of columns or sections as the resume point. It's not always possible to get a perfect split point for each page. For example there are occassions when the narrator's voice, or background sound effect, overlaps the page turn ping. Also the audio recording, and ping, was made for two page layout - which makes it hard to always cleanly split the SMIL during mid sentence across those two pages. 
 
 Right now I'm doing this by hand, but I may eventually look to build some templating scripts to help semi automate some of this.
 
@@ -23,6 +23,8 @@ Please just look at an existing EPUB to see the conventions and layout I used, i
 # Help
 Help is please needed, Pull Requests are very welcome.
 - Please review the EPUBs and let me know if there are mistakes. Incorrect images, TOCs and Nav. Issues or improvements with audio synchronisation points.
+- Improved EPUB compatability.
+- Metadata fixes, improvements or additions.
 - Submit new EPUB books. I'll keep trying to do this, but it takes time :(
 
 I'm new to EPUB so if there any experts out there, please let me know how I can improve this. 
