@@ -16,8 +16,12 @@ For practicality, I've chosen to split the audio per page. A later effort could 
 
 Right now I'm doing this by hand, but I may eventually look to build some templating scripts to help semi automate some of this.
 
+Please just look at an existing EPUB to see the conventions and layout I used, if you wish to contribute new books.
+!ExampleLayout.png
+[<img src="https://github.com/mdproctor/storyteller/raw/main/ExampleLayout.png" width="384" height="504"/>](https://github.com/mdproctor/storyteller/raw/main/ExampleLayout.png)
+
 # Help
-Help is please needed. 
+Help is please needed, Pull Requests are very welcome.
 - Please review the EPUBs and let me know if there are mistakes. Incorrect images, TOCs and Nav. Issues or improvements with audio synchronisation points.
 - Submit new EPUB books. I'll keep trying to do this, but it takes time :(
 
@@ -25,7 +29,7 @@ I'm new to EPUB so if there any experts out there, please let me know how I can 
 
 # License
 All images and audio files in each of the EPUB folders is the copyright material of Eagle Moss - https://en-gb.eaglemoss.com.
-Those images and audio files may not be distributed in any form, derived or whole, without the express permission of Eagle Moss. I have contacted Eagle Moss to request permission for inclusion in this Open Source project.
+Those images and audio files may not be distributed in any form, derived or whole, without the express permission of Eagle Moss. I have contacted Eagle Moss to request permission for inclusion in this Open Source project - or atleat a way to legally purchase them. If they decline I will remove the images and audio and then rewrite GIT history to fully remove them. People will then need to source then from the many "alternative" places that already exist.
 
 The remaining metadata, to create the EPUBs, is available under Creative Commons Zero.
 https://creativecommons.org/share-your-work/public-domain/cc0/
@@ -33,3 +37,5 @@ https://creativecommons.org/share-your-work/public-domain/cc0/
 # Links
 https://storytellerwebsite.wordpress.com
 https://storytellerme.bandcamp.com/releases
+https://www.facebook.com/groups/storytellerpartwork/
+
