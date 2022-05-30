@@ -5,6 +5,8 @@ Right now it just has a few books, I will keep adding more - there are soooooooo
 - https://storytellerwebsite.wordpress.com/the-collection/story-teller-1/
 - https://storytellerwebsite.wordpress.com/the-collection/story-teller-2/
 
+There was no indivual cover page for each story, so for now I simply repeat the first page as the cover page.
+
 # Instructions
 Use ecancrusher, https://www.docdataflow.com/ecancrusher/, to create the compressed epub files that you can drop into Apple Books. Just drag the EPUB folder and drop on the ecancrusher app icon.
 
