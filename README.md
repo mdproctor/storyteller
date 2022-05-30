@@ -39,8 +39,8 @@ Help is please needed, Pull Requests are very welcome.
 I'm new to EPUB so if there any experts out there, please let me know how I can improve this. 
 
 # License
-All images and audio files in each of the EPUB folders is the copyright material of Eagle Moss - https://en-gb.eaglemoss.com.
-Those images and audio files may not be distributed in any form, derived or whole, without the express permission of Eagle Moss. I have contacted Eagle Moss to request permission for inclusion in this Open Source project - or atleat a way to legally purchase them. If they decline I will remove the images and audio and then rewrite GIT history to fully remove them. People will then need to source then from the many "alternative" places that already exist.
+All images and audio files in each of the EPUB folders is the copyright material of Eaglemoss - https://en-gb.eaglemoss.com.
+Those images and audio files may not be distributed in any form, derived or whole, without the express permission of Eagle Moss. I have contacted Eaglemoss to request permission for inclusion in this Open Source project - or atleat a way to legally purchase them. If they decline I will remove the images and audio and then rewrite GIT history to fully remove them. People will then need to source then from the many "alternative" places that already exist.
 
 The remaining metadata, to create the EPUBs, is available under Creative Commons Zero.
 https://creativecommons.org/share-your-work/public-domain/cc0/
