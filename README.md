@@ -1,6 +1,6 @@
 [<img src="https://github.com/mdproctor/storyteller/raw/main/EagleMoss.png" width="306" height="69"/>](https://github.com/mdproctor/storyteller/raw/main/EagleMoss.png)
 
-Eaglemoss https://en-gb.eaglemoss.com
+Eaglemoss https://www.eaglemoss.com
 
 Eaglemoss acquired Story Teller from Cavendish Marsall in 2008. Eaglemoss is the world’s leading partwork publisher and licensed collectible company, having produced, marketed and distributed more than 150 collections in more than 30 markets across 5 continents and in 13 different languages.
 
