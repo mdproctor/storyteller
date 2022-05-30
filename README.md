@@ -2,7 +2,9 @@
 
 Eaglemoss https://en-gb.eaglemoss.com
 
-Eaglemoss acquired Story Teller from Cavendish Marsall in 2008. Eaglemoss is the world’s leading partwork publisher and licensed collectible company, having produced, marketed and distributed more than 150 collections in more than 30 markets across 5 continents and in 13 different languages
+Eaglemoss acquired Story Teller from Cavendish Marsall in 2008. Eaglemoss is the world’s leading partwork publisher and licensed collectible company, having produced, marketed and distributed more than 150 collections in more than 30 markets across 5 continents and in 13 different languages.
+
+This is a personal project, and is not affiliated or endorsed by Eaglemoss.
 
 # Overview
 Each folder is a single story from the Story Teller series, using a Read Aloud EPUB format. It contains SMIL meta data to synchronise the audio with each each page of the book. I have only tested this with Apple Books. There was no indivual cover page for each story, so for now I simply repeat the first page as the cover page.
