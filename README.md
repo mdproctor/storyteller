@@ -29,6 +29,7 @@ For practicality, I've chosen to split the audio per page. A later effort could 
 Right now I'm doing this by hand, but I may eventually look to build some templating scripts to help semi automate some of this.
 
 Please just look at an existing EPUB to see the conventions and layout I used, if you wish to contribute new books.
+
 [<img src="https://github.com/mdproctor/storyteller/raw/main/ExampleLayout.png" width="384" height="504"/>](https://github.com/mdproctor/storyteller/raw/main/ExampleLayout.png)
 
 # Help
